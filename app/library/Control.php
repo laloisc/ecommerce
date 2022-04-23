@@ -5,7 +5,7 @@
 class Control{
     function __construct()
     {
-        print "Bienvenido a la tienda virtual";
+        $db = new MySQLdb();
     }
 }
 ?>
